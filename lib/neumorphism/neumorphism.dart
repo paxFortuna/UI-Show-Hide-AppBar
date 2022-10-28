@@ -73,7 +73,7 @@ class _NeumorphismState extends State<Neumorphism> {
         const BoxShadow(
           spreadRadius: 3,
           color: Colors.white,
-          blurRadius: 14,
+          blurRadius: 12,
           offset: Offset(-5, -5),
         ),
       ],
