@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'scrollabeAppBar.dart';
+import 'nested_scroll_view/scrollabeAppBar.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({Key? key}) : super(key: key);
