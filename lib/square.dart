@@ -13,16 +13,19 @@ class Square extends StatelessWidget {
         boxShadow: [
           BoxShadow(
             blurRadius: 2,
-            offset: Offset(0,1),
+            offset: Offset(0, 1),
             color: Color.fromARGB(47, 0, 0, 0),
           ),
         ],
-      color: Color.fromARGB(255, 234, 233, 233),
+        color: Color.fromARGB(255, 234, 233, 233),
       ),
       child: Center(
         child: Text(
           child,
-          style: const TextStyle(fontSize: 20),
+          style: const TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
