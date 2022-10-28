@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui_hide_show_abbbar/modal/modal.dart';
 import 'package:ui_hide_show_abbbar/nav_bar.dart';
+import 'package:ui_hide_show_abbbar/neumorphism/neumorphism.dart';
 import 'package:ui_hide_show_abbbar/slide_to_act/slide_to_act.dart';
 
 class Routes extends StatelessWidget {
@@ -30,7 +31,12 @@ class Routes extends StatelessWidget {
               MaterialPageRoute(builder:(context) => StepByStep()),
             );
           }, child: Text('Modal Sheet')),
-          ElevatedButton(onPressed: (){}, child: Text('')),
+          ElevatedButton(onPressed: (){
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder:(context) => Neumorphism()),
+            );
+          }, child: Text('Neu Morphism')),
           ElevatedButton(onPressed: (){}, child: Text('')),
         ],
       ),

@@ -16,7 +16,8 @@ class _StepByStepState extends State<StepByStep> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        // backgroundColor: Colors.transparent,
+        backgroundColor: Colors.deepPurple.shade200,
         title: const Text(
           'Modal Bottom Sheet',
           style: TextStyle(color: Colors.black),
